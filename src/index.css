@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-Dark {
+  background: #353535!important;
+  color:#ffffff!important;
+ }
+ 
+ .bg-Light {
+     background: #f1f1f1!important;
+     color:#353535!important;
+ 
+ }
+ .form-control:focus {
+  box-shadow: none !important;
+}  
+ .bg-Nav{
+   background: rgb(231, 231, 231)!important;
+ }
+
+ .bg-colors{
+  background: hsla(198, 41%, 33%, 1);
+
+  background: linear-gradient(120deg, hsla(198, 41%, 33%, 1) 0%, hsla(170, 36%, 56%, 1) 50%, hsla(183, 40%, 79%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#316176", endColorstr="#66b7aa", GradientType=1 );
+color: #ffffff!important;   
+
+
+ }
+ 
+.btn:hover , .active{
+  background: hsla(198, 41%, 33%, 1);
+
+  background: linear-gradient(120deg, hsla(198, 41%, 33%, 1) 0%, hsla(170, 36%, 56%, 1) 50%, hsla(183, 40%, 79%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#316176", endColorstr="#66b7aa", GradientType=1 );
+color: #ffffff!important;   
+
+}
+
+.weatherTemp {
+
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
+   
+
+    
+
+}
+
+#city {
+ margin-top: 50%;
+}
